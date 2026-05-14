@@ -1,11 +1,12 @@
 ul {
     list-style: none;
+    padding: 0;
 }
 
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 235, 205);
-    
+
     padding: 8px;
     border-bottom: 4px solid;
     border-color: rgb(255, 235, 205);
@@ -20,6 +21,8 @@ ul {
     border: 2px solid;
     border-color: rgb(166, 133, 197);
     background-color: rgb(255, 235, 205);
+    margin: 8px, 0px;
+    margin-bottom: 8px;
 }
 
 .img {
@@ -38,4 +41,6 @@ ul {
     padding: 8px;
     border: 2px solid;
     border-color: rgb(255, 235, 205);
+    
+    margin-bottom: 32px;
 }
