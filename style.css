@@ -10,6 +10,7 @@ ul {
 
     padding: 8px;
     border-bottom: 4px solid;
+    margin-bottom: 0px;
     border-color: rgb(255, 235, 205);
     background-color: rgb(166, 133, 197);
 }
@@ -51,5 +52,50 @@ ul {
 }
 
 .ingredients{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredients-list{
+    padding: 8px;
+    border: 2px solid;
+    border-color: rgb(166, 133, 197);
+    background-color: rgb(255, 235, 205);
+}
+
+.subtitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(255, 235, 205);
+    text-align: left;
+
+    padding: 8px;
+    border-bottom: 4px solid;
+    border-color: rgb(255, 235, 205);
     background-color: rgb(166, 133, 197);
+}
+
+.steps{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(166, 133, 197);
+}
+
+.description{
+    padding-right: 16px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 200;
+    font-size: medium;
+}
+
+.home{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(166, 133, 197);
+    color: rgb(255, 235, 205);
 }
